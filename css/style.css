@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Diner Bold;
+    src: url(../fontes/Diner\ Bold.otf);
+}
+
+html{scroll-behavior:smooth;}
+
+.cadastrocadeado{background-color:#414141; text-align: right; padding: 10px;}
+.login{ display: flex; align-items: center; justify-content: right; color: aliceblue;padding: 5px;}
+.login img{margin-right: 10px;}
+.login a{text-decoration: none; color: aliceblue; transition: all 1s;}
+.login a:hover{color: aqua; text-decoration: dashed;}
+
+/* Menu Logo   */
+.voucontrolar{padding: 0px 30px ; margin-top: 15px;}
+#logotipoimagem{width: 30%;}
+.logout{width: 300px;}
+
+/* Menu Principal */
+
+.bg-ligth{background-color: #414141;}
+.justify-content-center a{color: aliceblue;}
+
+/* Carrocel */ 
+
+
+.carousel-caption{position: absolute; top:50%; }
+.carousel-caption h5{font-size: 3em; font-weight: bold; color: rgb(255, 255, 255); 
+    border: solid 5px rgb(2, 241, 82); padding: 20px; background-color: rgba(0, 0, 255, 0.171);}
+
+.carousel-caption p{font-size: 2em; color: rgb(0, 255, 149);}
+
+
+
+
+@media (max-width: 1110px) {
+    
+.justify-content-center{display: none;}
+
+}
+
+
+
